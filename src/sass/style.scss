@@ -1,0 +1,41 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/benefits';
+@import 'blocks/media';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/review';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto; 
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &_left {
+        color: #fff;
+        font-size: 32px;
+        text-align: left;
+    }
+}
